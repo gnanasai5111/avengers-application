@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgTonyStark"
+                android:layout_width="160dp"
+                android:layout_height="180dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/tony_stark"></ImageView>
+
+            <TextView
+                android:id="@+id/txtIronMan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_toRightOf="@id/imgTonyStark"
+                android:text="Iron Man"
+                android:textStyle="bold"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtIronMan"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@id/imgTonyStark"
+                android:text="Genius level intellect, Powered armor suit, Proficient scientist and engineer."
+                android:textColor="#d50000"
+                android:textSize="20sp"></TextView>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgThor"
+                android:layout_width="160dp"
+                android:layout_height="180dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/thor"></ImageView>
+
+            <TextView
+                android:id="@+id/txtThor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_toRightOf="@id/imgThor"
+                android:paddingLeft="20dp"
+                android:text="Thor"
+                android:textStyle="bold"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtThor"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@id/imgThor"
+                android:text="Superhuman speed, agility, reflexes and God of Thunder with enchanted hammer."
+                android:textColor="#ff9800"
+                android:textSize="20sp"></TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgCaptain"
+                android:layout_width="160dp"
+                android:layout_height="180dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/captain_america"></ImageView>
+
+            <TextView
+                android:id="@+id/txtCaptain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_toRightOf="@id/imgCaptain"
+                android:paddingLeft="20dp"
+                android:text="Captain America"
+                android:textStyle="bold"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtCaptain"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@id/imgCaptain"
+                android:text="Superhuman Agility,Stamina,Durability andStrength with Classic Shield."
+                android:textColor="#84ffff"
+                android:textSize="20sp"></TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgHulk"
+                android:layout_width="160dp"
+                android:layout_height="180dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/hulk"></ImageView>
+
+            <TextView
+                android:id="@+id/txtHulk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_toRightOf="@id/imgHulk"
+                android:paddingLeft="20dp"
+                android:text="Hulk"
+                android:textStyle="bold"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtHulk"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@id/imgHulk"
+                android:text="Incredible superhuman strength, durability, and healing factor."
+                android:textColor="#4caf50"
+                android:textSize="20sp"></TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgPanther"
+                android:layout_width="160dp"
+                android:layout_height="180dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/black_panther"></ImageView>
+
+            <TextView
+                android:id="@+id/txtPanther"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_toRightOf="@id/imgPanther"
+                android:paddingLeft="20dp"
+                android:text="Black Panther"
+                android:textStyle="bold"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtPanther"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@id/imgPanther"
+                android:text="Superhuman strength, speed, reflexes, agility, stamina, endurance, durability, and senses."
+                android:textColor="#ab47bc"
+                android:textSize="20sp"></TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgWidow"
+                android:layout_width="160dp"
+                android:layout_height="180dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/widow"></ImageView>
+
+            <TextView
+                android:id="@+id/txtWidow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_toRightOf="@id/imgWidow"
+                android:paddingLeft="20dp"
+                android:text="Black Widow"
+                android:textStyle="bold"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtWidow"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@id/imgWidow"
+                android:text="Expert tactician, hand-to-hand combatant and secret agent Slowed aging, and enhanced immune system."
+                android:textColor="#e91e63"
+                android:textSize="20sp"></TextView>
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
